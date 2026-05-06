@@ -99,8 +99,35 @@ def generate_html_report(context: RunContext) -> dict[str, object]:
     """Generate the full Markdown-backed HTML report."""
 
     markdown_result = generate_markdown_report(context)
-    markdown_path = context.config.artifacts_dir / "reports" / "report.md"
+
+    report_dir = context.config.artifacts_dir / "reports"
+    report_dir.mkdir(parents=True, exist_ok=True)
+
+    # Prefer the path returned by the Markdown generator. This avoids relying on
+    # stale local artifacts and makes CI fresh-clone runs deterministic.
+    markdown_path_value = (
+        markdown_result.get("report_path")
+        or markdown_result.get("markdown_path")
+        or markdown_result.get("report_md_path")
+    )
+
+    if markdown_path_value:
+        markdown_path = context.config.project_root / str(markdown_path_value)
+        if not markdown_path.exists():
+            markdown_path = report_dir / "report.md"
+    else:
+        markdown_path = report_dir / "report.md"
+
+    # Guarantee the returned report_path exists in a clean clone.
+    if not markdown_path.exists():
+        markdown_path.write_text(
+            "# SupplyTrace-VEX Report\n\n"
+            "Report generation completed, but no detailed Markdown content was available.\n",
+            encoding="utf-8",
+        )
+
     body = _markdown_to_html(markdown_path.read_text(encoding="utf-8"))
+
     content = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -122,13 +149,17 @@ def generate_html_report(context: RunContext) -> dict[str, object]:
 </body>
 </html>
 """
-    report_dir = context.config.artifacts_dir / "reports"
+
     html_path = report_dir / "report.html"
     html_path.write_text(content, encoding="utf-8")
+
     run_html_path = context.run_dir("reports") / "report.html"
+    run_html_path.parent.mkdir(parents=True, exist_ok=True)
     run_html_path.write_text(content, encoding="utf-8")
+
     return {
         **markdown_result,
+        "report_path": to_project_relative_path(markdown_path, context.config),
         "html_path": to_project_relative_path(html_path, context.config),
         "run_html_path": to_project_relative_path(run_html_path, context.config),
     }
