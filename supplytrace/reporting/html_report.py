@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import html
 import re
+from pathlib import Path
 
-from supplytrace.config import to_project_relative_path
 from supplytrace.run_context import RunContext
 
 from .markdown_report import generate_markdown_report
@@ -95,6 +95,25 @@ def _markdown_to_html(markdown: str) -> str:
     return "\n".join(parts)
 
 
+def _resolve_returned_path(context: RunContext, value: object, fallback: Path) -> Path:
+    """Resolve a report path returned by another generator to an actual file path."""
+
+    if not value:
+        return fallback
+    path = Path(str(value))
+    if path.is_absolute():
+        return path
+    return context.config.project_root / path
+
+
+def _absolute_existing_paths(context: RunContext, paths: dict[str, str]) -> dict[str, str]:
+    resolved: dict[str, str] = {}
+    for key, value in paths.items():
+        path = _resolve_returned_path(context, value, context.config.project_root / str(value))
+        resolved[key] = str(path)
+    return resolved
+
+
 def generate_html_report(context: RunContext) -> dict[str, object]:
     """Generate the full Markdown-backed HTML report."""
 
@@ -110,19 +129,16 @@ def generate_html_report(context: RunContext) -> dict[str, object]:
         or markdown_result.get("markdown_path")
         or markdown_result.get("report_md_path")
     )
-
-    if markdown_path_value:
-        markdown_path = context.config.project_root / str(markdown_path_value)
-        if not markdown_path.exists():
-            markdown_path = report_dir / "report.md"
-    else:
+    markdown_path = _resolve_returned_path(context, markdown_path_value, report_dir / "report.md")
+    if not markdown_path.exists():
         markdown_path = report_dir / "report.md"
 
     # Guarantee the returned report_path exists in a clean clone.
     if not markdown_path.exists():
+        markdown_path.parent.mkdir(parents=True, exist_ok=True)
         markdown_path.write_text(
             "# SupplyTrace-VEX Report\n\n"
-            "Report generation completed, but no detailed Markdown content was available.\n",
+            "Detailed evidence requires running the full pipeline before generating the report.\n",
             encoding="utf-8",
         )
 
@@ -157,9 +173,24 @@ def generate_html_report(context: RunContext) -> dict[str, object]:
     run_html_path.parent.mkdir(parents=True, exist_ok=True)
     run_html_path.write_text(content, encoding="utf-8")
 
+    run_report_path = _resolve_returned_path(
+        context,
+        markdown_result.get("run_report_path"),
+        context.run_dir("reports") / "report.md",
+    )
+    manuscript_path = _resolve_returned_path(
+        context,
+        markdown_result.get("manuscript_support_path"),
+        context.config.project_root / "docs" / "manuscript_support.md",
+    )
+
     return {
         **markdown_result,
-        "report_path": to_project_relative_path(markdown_path, context.config),
-        "html_path": to_project_relative_path(html_path, context.config),
-        "run_html_path": to_project_relative_path(run_html_path, context.config),
+        "report_path": str(markdown_path),
+        "run_report_path": str(run_report_path),
+        "html_path": str(html_path),
+        "run_html_path": str(run_html_path),
+        "manuscript_support_path": str(manuscript_path),
+        "table_paths": _absolute_existing_paths(context, markdown_result.get("table_paths", {})),
+        "figure_paths": _absolute_existing_paths(context, markdown_result.get("figure_paths", {})),
     }
