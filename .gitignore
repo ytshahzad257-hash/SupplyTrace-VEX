@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ruff_cache/
+.deps/
+.tmp/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+*.bak
+*.swp
+.hypothesis/
+.tox/
+.nox/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Generated research artifacts
+artifacts/**
+!artifacts/**/
+!artifacts/**/.gitkeep
+
+# Generated local testbed cases
+testbed/cases/**
+!testbed/cases/
+!testbed/cases/.gitkeep
+testbed/ground_truth/**
+!testbed/ground_truth/
+!testbed/ground_truth/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+.idea/
+.vscode/
+
+# Local scratch files
+tmp/
+temp/
+run-*.txt
+local-*.json
+*.local

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SupplyTrace-VEX local testbed case metadata",
+  "type": "object",
+  "required": [
+    "case_id",
+    "ecosystem",
+    "category",
+    "intended_case_type",
+    "package_manager",
+    "vulnerable_package_expected",
+    "vulnerable_version_expected",
+    "expected_dependency_scope",
+    "expected_dependency_context",
+    "expected_reachability",
+    "expected_actionability_label",
+    "scanner_confirmed_vulnerability",
+    "scanner_confirmation_source",
+    "notes",
+    "explanation",
+    "safety_note",
+    "dependencies",
+    "scanner_confirmation_status",
+    "ground_truth_scope"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^case_[0-9]{3}$"
+    },
+    "ecosystem": {
+      "type": "string",
+      "enum": ["nodejs", "python", "container"]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "vulnerable_reachable_direct",
+        "vulnerable_unreachable_direct",
+        "vulnerable_reachable_transitive",
+        "vulnerable_dev_only",
+        "patched_dependency",
+        "container_vulnerable_layer",
+        "clean_control"
+      ]
+    },
+    "intended_case_type": {
+      "type": "string"
+    },
+    "package_manager": {
+      "type": "string",
+      "enum": ["npm", "pip", "dockerfile"]
+    },
+    "vulnerable_package_expected": {
+      "type": ["string", "null"]
+    },
+    "vulnerable_version_expected": {
+      "type": ["string", "null"]
+    },
+    "expected_dependency_scope": {
+      "type": "string"
+    },
+    "expected_dependency_context": {
+      "type": "object"
+    },
+    "expected_reachability": {
+      "type": "string"
+    },
+    "expected_actionability_label": {
+      "type": "string",
+      "enum": ["actionable", "non_actionable", "fixed", "clean", "unknown_until_scanned"]
+    },
+    "scanner_confirmed_vulnerability": {
+      "type": ["boolean", "null"]
+    },
+    "scanner_confirmation_source": {
+      "type": ["string", "null"]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "safety_note": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "version", "scope", "ecosystem"],
+        "properties": {
+          "name": {"type": "string"},
+          "version": {"type": "string"},
+          "scope": {"type": "string"},
+          "ecosystem": {"type": "string"}
+        }
+      }
+    },
+    "scanner_confirmation_status": {
+      "type": "string",
+      "const": "not_scanned"
+    },
+    "ground_truth_scope": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+x-supplytrace-base: &supplytrace-base
+  build:
+    context: .
+    args:
+      INSTALL_SCANNER_TOOLS: ${INSTALL_SCANNER_TOOLS:-true}
+      OSV_SCANNER_VERSION: ${OSV_SCANNER_VERSION:-latest}
+  image: supplytrace-vex:local
+  working_dir: /app
+  environment:
+    SUPPLYTRACE_ALLOW_NETWORK_SCANNER_UPDATES: ${SUPPLYTRACE_ALLOW_NETWORK_SCANNER_UPDATES:-false}
+    SUPPLYTRACE_NPM_AUDIT_OFFLINE: ${SUPPLYTRACE_NPM_AUDIT_OFFLINE:-false}
+  volumes:
+    - ./artifacts:/app/artifacts
+    - ./testbed:/app/testbed
+    - ./docs:/app/docs
+
+services:
+  supplytrace:
+    <<: *supplytrace-base
+    command: ["--help"]
+
+  build-testbed:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["build-testbed", "--overwrite"]
+
+  generate-sbom:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["generate-sbom", "--run-id", "${RUN_ID:-docker-local}"]
+
+  run-scans:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["run-scans", "--run-id", "${RUN_ID:-docker-local}"]
+
+  normalize:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["normalize", "--run-id", "${RUN_ID:-docker-local}"]
+
+  analyze-reachability:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["analyze-reachability", "--run-id", "${RUN_ID:-docker-local}"]
+
+  score:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["score", "--run-id", "${RUN_ID:-docker-local}"]
+
+  generate-vex:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["generate-vex", "--run-id", "${RUN_ID:-docker-local}"]
+
+  evaluate:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["evaluate", "--run-id", "${RUN_ID:-docker-local}"]
+
+  report:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["report", "--run-id", "${RUN_ID:-docker-local}"]
+
+  debug-evidence:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["debug-evidence", "--run-id", "${RUN_ID:-docker-local}"]
+
+  evidence-check:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["evidence-check", "--run-id", "${RUN_ID:-docker-local}"]
+
+  audit:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["audit", "--run-id", "${RUN_ID:-docker-local}"]
+
+  run-all:
+    <<: *supplytrace-base
+    profiles: ["commands"]
+    command: ["run-all", "--run-id", "${RUN_ID:-docker-local}", "--overwrite-testbed"]

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use SupplyTrace-VEX, please cite the repository release, archived artifact, or commit used to generate your results."
+type: software
+title: "SupplyTrace-VEX: Context-Aware Software Supply-Chain Vulnerability Prioritization"
+version: "0.1.0"
+date-released: "2026-05-05"
+authors:
+  - name: "SupplyTrace-VEX contributors"
+license: "MIT"
+abstract: "A defensive reproducible research artifact for local software supply-chain vulnerability prioritization using SBOM evidence, scanner outputs, dependency reachability, contextual risk scoring, evaluation, and VEX-style status generation."
+keywords:
+  - "software supply chain"
+  - "SBOM"
+  - "VEX"
+  - "vulnerability prioritization"
+  - "cybersecurity research"
