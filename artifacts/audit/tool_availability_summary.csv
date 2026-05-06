@@ -1,0 +1,12 @@
+tool,available,version,source,notes
+python,True,Python 3.13.12,capture_tool_version:vscode-check,
+node,True,v22.22.0,capture_tool_version:vscode-check,
+npm,True,10.9.4,capture_tool_version:vscode-check,
+pip-audit,True,pip-audit 2.10.0,python -m pip_audit:vscode-check,
+osv-scanner,False,,capture_tool_version:vscode-check,not found on PATH
+trivy,False,,capture_tool_version:vscode-check,not found on PATH
+grype,False,,capture_tool_version:vscode-check,not found on PATH
+syft,False,,capture_tool_version:vscode-check,not found on PATH
+cyclonedx-py,False,,python -m cyclonedx_py:vscode-check,"Command '('E:\\Publication\\Projects\\03_01\\supplytrace-vex 01\\.venv\\Scripts\\python.exe', '-m', 'cyclonedx_py', '--version')' returned non-zero exit status 1."
+pytest,True,pytest 9.0.3,python -m pytest:vscode-check,
+docker,False,,capture_tool_version:vscode-check,not found on PATH

@@ -1,0 +1,15 @@
+method,k,evaluated_count,actionable_count,topk_actionability,status,notes
+cvss_only,5,5,0,0.0,ok,computed over labeled scanner-backed findings
+cvss_only,10,10,0,0.0,ok,computed over labeled scanner-backed findings
+direct_dependency_first,5,5,1,0.2,ok,computed over labeled scanner-backed findings
+direct_dependency_first,10,10,2,0.2,ok,computed over labeled scanner-backed findings
+proposed_full_model,5,5,1,0.2,ok,computed over labeled scanner-backed findings
+proposed_full_model,10,10,4,0.4,ok,computed over labeled scanner-backed findings
+reachability_only,5,5,1,0.2,ok,computed over labeled scanner-backed findings
+reachability_only,10,10,4,0.4,ok,computed over labeled scanner-backed findings
+runtime_dependency_first,5,5,1,0.2,ok,computed over labeled scanner-backed findings
+runtime_dependency_first,10,10,3,0.3,ok,computed over labeled scanner-backed findings
+scanner_native_priority,5,5,0,0.0,ok,computed over labeled scanner-backed findings
+scanner_native_priority,10,10,0,0.0,ok,computed over labeled scanner-backed findings
+severity_only,5,5,0,0.0,ok,computed over labeled scanner-backed findings
+severity_only,10,10,0,0.0,ok,computed over labeled scanner-backed findings

@@ -1,0 +1,3 @@
+method,metric,value,numerator,denominator,status
+proposed_full_model,false_positive_reduction,0.862069,75,87,ok
+proposed_full_model,actionable_findings_retained,28,28,56,ok

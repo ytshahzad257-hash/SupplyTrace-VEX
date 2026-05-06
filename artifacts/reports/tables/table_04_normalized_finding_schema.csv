@@ -1,0 +1,22 @@
+field_name,description,missing_data_policy
+finding_id,Stable normalized finding identifier.,null or unknown with normalization warning when source evidence is absent
+case_id,Local testbed case identifier.,null or unknown with normalization warning when source evidence is absent
+scanner_name,Scanner or scanners that produced the normalized evidence.,null or unknown with normalization warning when source evidence is absent
+package_name,Dependency package name reported by the scanner.,null or unknown with normalization warning when source evidence is absent
+package_version,Installed or manifest version when reported.,null or unknown with normalization warning when source evidence is absent
+ecosystem,"Package ecosystem such as npm, pypi, or linux-package.",null or unknown with normalization warning when source evidence is absent
+package_manager,Package manager or manifest family associated with the finding.,null or unknown with normalization warning when source evidence is absent
+vulnerability_id,Primary vulnerability identifier from scanner output.,null or unknown with normalization warning when source evidence is absent
+cve_id,CVE identifier when scanner output includes one.,null or unknown with normalization warning when source evidence is absent
+ghsa_id,GitHub Security Advisory identifier when scanner output includes one.,null or unknown with normalization warning when source evidence is absent
+osv_id,OSV identifier when scanner output includes one.,null or unknown with normalization warning when source evidence is absent
+severity,Scanner-provided severity when available.,null or unknown with normalization warning when source evidence is absent
+cvss_score,Scanner-provided CVSS score when available.,null or unknown with normalization warning when source evidence is absent
+fixed_version,Scanner-provided fixed version when available.,null or unknown with normalization warning when source evidence is absent
+advisory_url,Scanner-provided advisory URL when available.,null or unknown with normalization warning when source evidence is absent
+dependency_scope,"Runtime, development, transitive, container, or unknown scope.",null or unknown with normalization warning when source evidence is absent
+direct_or_transitive,"Direct, transitive, container-layer, or unknown relationship.",null or unknown with normalization warning when source evidence is absent
+source_file,Raw evidence source file or target path.,null or unknown with normalization warning when source evidence is absent
+raw_reference,Path to raw scanner output used during normalization.,null or unknown with normalization warning when source evidence is absent
+scanner_confidence,Scanner or normalizer confidence value when available.,null or unknown with normalization warning when source evidence is absent
+normalization_notes,Warnings or normalization notes preserved for auditability.,null or unknown with normalization warning when source evidence is absent

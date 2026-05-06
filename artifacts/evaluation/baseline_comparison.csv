@@ -1,0 +1,8 @@
+method,finding_count,labeled_count,actionable_count,top5_actionability,top10_actionability,ndcg,map,status,notes
+cvss_only,167,143,56,0.0,0.0,0.720119,0.418589,ok,computed over labeled scanner-backed findings
+direct_dependency_first,167,143,56,0.2,0.2,0.710429,0.351517,ok,computed over labeled scanner-backed findings
+proposed_full_model,167,143,56,0.2,0.4,0.767359,0.458853,ok,computed over labeled scanner-backed findings
+reachability_only,167,143,56,0.2,0.4,0.781992,0.498147,ok,computed over labeled scanner-backed findings
+runtime_dependency_first,167,143,56,0.2,0.3,0.758405,0.456226,ok,computed over labeled scanner-backed findings
+scanner_native_priority,167,143,56,0.0,0.0,0.720119,0.418589,ok,computed over labeled scanner-backed findings
+severity_only,167,143,56,0.0,0.0,0.718792,0.41365,ok,computed over labeled scanner-backed findings

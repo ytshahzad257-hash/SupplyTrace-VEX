@@ -1,0 +1,88 @@
+{
+  "analysis_limits": [
+    "Static import analysis does not prove exploitability.",
+    "Dynamic imports, reflection, generated code, framework dispatch, and runtime configuration may be missed.",
+    "Transitive dependency reachability is represented conservatively unless directly imported by source."
+  ],
+  "case_id": "case_006",
+  "container_context": {
+    "base_image_expected": null,
+    "claim_scope": "Container context is read from local Dockerfile and fixture metadata only.",
+    "containerized": false,
+    "files": [],
+    "packages_expected": []
+  },
+  "dynamic_imports": [],
+  "edges": [
+    {
+      "relationship": "direct",
+      "source": "case_006",
+      "source_manifest": "requirements.txt",
+      "target": "case_006:PyYAML"
+    },
+    {
+      "relationship": "imports",
+      "source": "case_006:source:testbed/cases/case_006/app/main.py",
+      "target": "case_006:PyYAML"
+    }
+  ],
+  "exposure_context": {
+    "claim_scope": "Static source marker inspection only; no service was executed or contacted.",
+    "evidence": [],
+    "exposed_service": false
+  },
+  "javascript_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  },
+  "nodes": [
+    {
+      "id": "case_006",
+      "label": "case_006",
+      "type": "project"
+    },
+    {
+      "dependency_scope": "runtime",
+      "direct_or_transitive": "direct",
+      "ecosystem": "pypi",
+      "id": "case_006:PyYAML",
+      "label": "PyYAML",
+      "reachability_status": "reachable",
+      "type": "dependency",
+      "version": "5.3.1"
+    },
+    {
+      "id": "case_006:source:testbed/cases/case_006/app/main.py",
+      "label": "testbed/cases/case_006/app/main.py",
+      "type": "source_file"
+    }
+  ],
+  "python_analysis": {
+    "declared_dependencies": [
+      {
+        "dependency_scope": "runtime",
+        "direct_or_transitive": "direct",
+        "ecosystem": "pypi",
+        "name": "PyYAML",
+        "package_manager": "pip",
+        "source_manifest": "requirements.txt",
+        "version": "5.3.1"
+      }
+    ],
+    "dynamic_imports": [],
+    "imports": [
+      {
+        "import_type": "import",
+        "imported_name": "yaml",
+        "line": 3,
+        "local_name": "yaml",
+        "module": "yaml",
+        "source_file": "testbed/cases/case_006/app/main.py",
+        "used_in_call": true
+      }
+    ],
+    "parse_errors": []
+  }
+}

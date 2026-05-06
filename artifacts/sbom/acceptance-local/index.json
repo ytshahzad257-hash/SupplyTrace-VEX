@@ -1,0 +1,18 @@
+{
+  "claim_scope": "SBOMs are derived from local manifest files only.",
+  "run_id": "acceptance-local",
+  "sboms": [
+    {
+      "case_id": "js-basic-import",
+      "component_count": 1,
+      "path": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\sbom\\acceptance-local\\js-basic-import.cyclonedx.json",
+      "source": "local package manifests"
+    },
+    {
+      "case_id": "python-basic-import",
+      "component_count": 1,
+      "path": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\sbom\\acceptance-local\\python-basic-import.cyclonedx.json",
+      "source": "local package manifests"
+    }
+  ]
+}

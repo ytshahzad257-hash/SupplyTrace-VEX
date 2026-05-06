@@ -1,0 +1,5 @@
+tool_name,sbom_format,status,case_count,generated_count,unavailable_count,error_count,notes
+supplytrace-manifest-parser,internal,generated,50,50,0,0,internal fallback is manifest-derived
+syft,syft,unavailable_or_error,50,0,50,0,external formats are generated only from real tool output
+cyclonedx-py,cyclonedx,partial,50,21,0,0,external formats are generated only from real tool output
+syft,spdx,unavailable_or_error,50,0,50,0,external formats are generated only from real tool output

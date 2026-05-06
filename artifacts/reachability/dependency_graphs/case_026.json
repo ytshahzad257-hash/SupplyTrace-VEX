@@ -1,0 +1,68 @@
+{
+  "analysis_limits": [
+    "Static import analysis does not prove exploitability.",
+    "Dynamic imports, reflection, generated code, framework dispatch, and runtime configuration may be missed.",
+    "Transitive dependency reachability is represented conservatively unless directly imported by source."
+  ],
+  "case_id": "case_026",
+  "container_context": {
+    "base_image_expected": null,
+    "claim_scope": "Container context is read from local Dockerfile and fixture metadata only.",
+    "containerized": false,
+    "files": [],
+    "packages_expected": []
+  },
+  "dynamic_imports": [],
+  "edges": [
+    {
+      "relationship": "direct",
+      "source": "case_026",
+      "source_manifest": "requirements-dev.txt",
+      "target": "case_026:urllib3"
+    }
+  ],
+  "exposure_context": {
+    "claim_scope": "Static source marker inspection only; no service was executed or contacted.",
+    "evidence": [],
+    "exposed_service": false
+  },
+  "javascript_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  },
+  "nodes": [
+    {
+      "id": "case_026",
+      "label": "case_026",
+      "type": "project"
+    },
+    {
+      "dependency_scope": "development",
+      "direct_or_transitive": "direct",
+      "ecosystem": "pypi",
+      "id": "case_026:urllib3",
+      "label": "urllib3",
+      "reachability_status": "dev_only",
+      "type": "dependency",
+      "version": "1.24.1"
+    }
+  ],
+  "python_analysis": {
+    "declared_dependencies": [
+      {
+        "dependency_scope": "development",
+        "direct_or_transitive": "direct",
+        "ecosystem": "pypi",
+        "name": "urllib3",
+        "package_manager": "pip",
+        "source_manifest": "requirements-dev.txt",
+        "version": "1.24.1"
+      }
+    ],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  }
+}

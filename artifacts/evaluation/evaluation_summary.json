@@ -1,0 +1,70 @@
+{
+  "claim_scope": "Evaluation metrics are computed only from generated local artifacts. Missing findings, missing scanner outputs, and unlabeled rows are reported rather than inferred.",
+  "finding_count": 167,
+  "input_warnings": [],
+  "labeled_finding_count": 143,
+  "metrics": {
+    "binary": {
+      "actionable_findings_retained": 28,
+      "context_filter": {
+        "f1": 0.6,
+        "false_negative": 32,
+        "false_positive": 0,
+        "method": "context_filter",
+        "notes": "computed over labeled scanner-backed findings",
+        "precision": 1.0,
+        "recall": 0.428571,
+        "status": "ok",
+        "true_negative": 87,
+        "true_positive": 24
+      },
+      "false_positive_reduction": 0.862069,
+      "proposed": {
+        "f1": 0.583333,
+        "false_negative": 28,
+        "false_positive": 12,
+        "method": "proposed_full_model",
+        "notes": "computed over labeled scanner-backed findings",
+        "precision": 0.7,
+        "recall": 0.5,
+        "status": "ok",
+        "true_negative": 75,
+        "true_positive": 28
+      },
+      "raw": {
+        "f1": 0.562814,
+        "false_negative": 0,
+        "false_positive": 87,
+        "method": "raw_scanner",
+        "notes": "computed over labeled scanner-backed findings",
+        "precision": 0.391608,
+        "recall": 1.0,
+        "status": "ok",
+        "true_negative": 0,
+        "true_positive": 56
+      }
+    },
+    "scanner_disagreement": {
+      "finding_count": 167,
+      "multi_scanner_findings": 0,
+      "overlapping_pair_count": 0,
+      "scanner_disagreement_count": 0,
+      "scanner_disagreement_rate": 0.0,
+      "scanner_overlap": 0.0,
+      "scanner_pair_count": 1
+    }
+  },
+  "outputs": {
+    "ablation_results": "artifacts/evaluation/ablation_results.csv",
+    "baseline_comparison": "artifacts/evaluation/baseline_comparison.csv",
+    "evaluation_notes": "artifacts/evaluation/evaluation_notes.md",
+    "evidence_completeness": "artifacts/evaluation/evidence_completeness.csv",
+    "metrics_summary": "artifacts/evaluation/metrics_summary.csv",
+    "runtime_summary": "artifacts/evaluation/runtime_summary.csv",
+    "scanner_disagreement": "artifacts/evaluation/scanner_disagreement.csv",
+    "topk_comparison": "artifacts/evaluation/topk_comparison.csv"
+  },
+  "run_id": "final-new-chat-complete",
+  "scanner_metadata_count": 250,
+  "status": "completed"
+}

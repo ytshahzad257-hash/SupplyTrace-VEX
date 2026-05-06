@@ -1,0 +1,9 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "urn:supplytrace-vex:acceptance-local",
+  "author": "SupplyTrace-VEX",
+  "claim_scope": "VEX-style statuses are generated only from local normalized scanner and reachability evidence.",
+  "statements": [],
+  "timestamp": "2026-05-05T12:27:40.602786+00:00",
+  "version": 1
+}

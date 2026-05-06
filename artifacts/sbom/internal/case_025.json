@@ -1,0 +1,34 @@
+{
+  "case_id": "case_025",
+  "components": [
+    {
+      "dependency_scope": "development",
+      "direct_or_transitive": "direct",
+      "ecosystem": "npm",
+      "name": "minimist",
+      "package_manager": "npm",
+      "source_manifest": "package.json",
+      "version": "0.0.8"
+    }
+  ],
+  "format": "internal_fallback",
+  "generated_at": "2026-05-06T17:28:30.138746+00:00",
+  "metadata": {
+    "case_hash": "ce328689bc93edbacfcbd726f90c742d5d56d63dfb7dfbe03be719c1b6a4e321",
+    "generation_command": [
+      "python",
+      "-m",
+      "supplytrace",
+      "generate-sbom"
+    ],
+    "notes": [
+      "Internal fallback SBOM derived from local manifests only.",
+      "This file is not external CycloneDX or SPDX tool output.",
+      "External SBOM formats were not generated for all requested formats; see sbom_generation_metadata.csv."
+    ]
+  },
+  "sbom_format": "internal_fallback",
+  "tool_name": "supplytrace-manifest-parser",
+  "tool_status": "generated",
+  "tool_version": "0.1.0"
+}

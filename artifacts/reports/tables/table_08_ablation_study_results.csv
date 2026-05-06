@@ -1,0 +1,7 @@
+variant,finding_count,labeled_count,actionable_count,top5_actionability,top10_actionability,ndcg,map,status,notes
+full_model,167,143,56,0.2,0.4,0.767359,0.458853,ok,ablation ranking computed from available local evidence
+no_reachability,167,143,56,0.0,0.0,0.720119,0.418589,ok,ablation ranking computed from available local evidence
+no_dependency_scope,167,143,56,0.2,0.6,0.78358,0.488275,ok,ablation ranking computed from available local evidence
+no_scanner_agreement,167,143,56,0.2,0.6,0.78358,0.488275,ok,ablation ranking computed from available local evidence
+severity_only,167,143,56,0.0,0.0,0.720119,0.418589,ok,ablation ranking computed from available local evidence
+context_only,167,143,56,0.2,0.4,0.825735,0.670984,ok,ablation ranking computed from available local evidence

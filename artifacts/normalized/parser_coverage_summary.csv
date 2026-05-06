@@ -1,0 +1,6 @@
+scanner_name,raw_files_considered,raw_files_parsed,raw_finding_records,normalized_findings_after_dedupe,warning_count,notes
+grype,0,0,0,0,0,parser coverage from local raw JSON outputs
+npm_audit,23,23,67,67,67,parser coverage from local raw JSON outputs
+osv,0,0,0,0,0,parser coverage from local raw JSON outputs
+pip_audit,21,21,114,100,456,parser coverage from local raw JSON outputs
+trivy,0,0,0,0,0,parser coverage from local raw JSON outputs

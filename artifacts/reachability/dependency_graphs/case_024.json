@@ -1,0 +1,119 @@
+{
+  "analysis_limits": [
+    "Static import analysis does not prove exploitability.",
+    "Dynamic imports, reflection, generated code, framework dispatch, and runtime configuration may be missed.",
+    "Transitive dependency reachability is represented conservatively unless directly imported by source."
+  ],
+  "case_id": "case_024",
+  "container_context": {
+    "base_image_expected": null,
+    "claim_scope": "Container context is read from local Dockerfile and fixture metadata only.",
+    "containerized": false,
+    "files": [],
+    "packages_expected": []
+  },
+  "dynamic_imports": [],
+  "edges": [
+    {
+      "relationship": "direct",
+      "source": "case_024",
+      "source_manifest": "requirements.txt",
+      "target": "case_024:Flask"
+    },
+    {
+      "relationship": "imports",
+      "source": "case_024:source:testbed/cases/case_024/app/main.py",
+      "target": "case_024:Flask"
+    },
+    {
+      "relationship": "transitive",
+      "source": "case_024",
+      "source_manifest": "requirements.lock",
+      "target": "case_024:Jinja2"
+    }
+  ],
+  "exposure_context": {
+    "claim_scope": "Static source marker inspection only; no service was executed or contacted.",
+    "evidence": [
+      {
+        "marker": "flask(",
+        "reason": "static service exposure marker",
+        "source_file": "E:\\Publication\\Projects\\03_01\\supplytrace-vex 01\\testbed\\cases\\case_024\\app\\main.py"
+      }
+    ],
+    "exposed_service": true
+  },
+  "javascript_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  },
+  "nodes": [
+    {
+      "id": "case_024",
+      "label": "case_024",
+      "type": "project"
+    },
+    {
+      "dependency_scope": "runtime",
+      "direct_or_transitive": "direct",
+      "ecosystem": "pypi",
+      "id": "case_024:Flask",
+      "label": "Flask",
+      "reachability_status": "reachable",
+      "type": "dependency",
+      "version": "0.12.2"
+    },
+    {
+      "id": "case_024:source:testbed/cases/case_024/app/main.py",
+      "label": "testbed/cases/case_024/app/main.py",
+      "type": "source_file"
+    },
+    {
+      "dependency_scope": "transitive",
+      "direct_or_transitive": "transitive",
+      "ecosystem": "pypi",
+      "id": "case_024:Jinja2",
+      "label": "Jinja2",
+      "reachability_status": "transitive_only",
+      "type": "dependency",
+      "version": "2.10"
+    }
+  ],
+  "python_analysis": {
+    "declared_dependencies": [
+      {
+        "dependency_scope": "runtime",
+        "direct_or_transitive": "direct",
+        "ecosystem": "pypi",
+        "name": "Flask",
+        "package_manager": "pip",
+        "source_manifest": "requirements.txt",
+        "version": "0.12.2"
+      },
+      {
+        "dependency_scope": "transitive",
+        "direct_or_transitive": "transitive",
+        "ecosystem": "pypi",
+        "name": "Jinja2",
+        "package_manager": "pip",
+        "source_manifest": "requirements.lock",
+        "version": "2.10"
+      }
+    ],
+    "dynamic_imports": [],
+    "imports": [
+      {
+        "import_type": "import",
+        "imported_name": "flask",
+        "line": 3,
+        "local_name": "flask",
+        "module": "flask",
+        "source_file": "testbed/cases/case_024/app/main.py",
+        "used_in_call": true
+      }
+    ],
+    "parse_errors": []
+  }
+}

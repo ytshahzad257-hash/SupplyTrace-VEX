@@ -1,0 +1,6 @@
+priority,score_min,score_max,finding_count
+critical,85.0,100.0,44
+high,70.0,84.999,0
+medium,45.0,69.999,32
+low,20.0,44.999,11
+informational,0.0,19.999,80

@@ -1,0 +1,12 @@
+{
+  "claim_scope": "Normalized findings are derived only from raw local scanner JSON. Missing fields are represented as null or unknown and recorded in normalization_warnings.csv.",
+  "findings_csv": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\normalized\\findings_normalized.csv",
+  "findings_json": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\normalized\\findings_normalized.json",
+  "normalized_finding_count": 0,
+  "raw_finding_records": 0,
+  "raw_scanner_files_considered": 23,
+  "raw_scanner_files_parsed": 23,
+  "run_id": "final-audit-run-all",
+  "warning_count": 0,
+  "warnings_csv": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\normalized\\normalization_warnings.csv"
+}

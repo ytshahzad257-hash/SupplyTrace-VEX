@@ -1,0 +1,5 @@
+metric,value,status,notes
+publication_readiness_score_out_of_10,5.0,not_ready_for_paper_results,cannot exceed evidence-readiness score
+ready_for_paper_results,no,not_ready_for_paper_results,requires real normalized findings and metrics
+blocking_issue_count,0,info,
+warning_count,2,info,

@@ -1,0 +1,34 @@
+{
+  "case_id": "case_045",
+  "components": [
+    {
+      "dependency_scope": "runtime",
+      "direct_or_transitive": "direct",
+      "ecosystem": "npm",
+      "name": "nanoid",
+      "package_manager": "npm",
+      "source_manifest": "package.json",
+      "version": "5.0.7"
+    }
+  ],
+  "format": "internal_fallback",
+  "generated_at": "2026-05-06T17:28:30.138746+00:00",
+  "metadata": {
+    "case_hash": "accb911ddd76446d6a523d42d07a1f0847dd1afecdeefbc2a4e81679407dd5c6",
+    "generation_command": [
+      "python",
+      "-m",
+      "supplytrace",
+      "generate-sbom"
+    ],
+    "notes": [
+      "Internal fallback SBOM derived from local manifests only.",
+      "This file is not external CycloneDX or SPDX tool output.",
+      "External SBOM formats were not generated for all requested formats; see sbom_generation_metadata.csv."
+    ]
+  },
+  "sbom_format": "internal_fallback",
+  "tool_name": "supplytrace-manifest-parser",
+  "tool_status": "generated",
+  "tool_version": "0.1.0"
+}

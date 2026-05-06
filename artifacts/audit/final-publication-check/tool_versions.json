@@ -1,0 +1,42 @@
+{
+  "project_root": "E:\\Publication\\Projects\\03\\supplytrace-vex",
+  "run_id": "final-publication-check",
+  "tools": [
+    {
+      "available": true,
+      "returncode": 0,
+      "tool": "python",
+      "version": "Python 3.13.12"
+    },
+    {
+      "available": false,
+      "error": "not found on PATH",
+      "tool": "osv-scanner",
+      "version": null
+    },
+    {
+      "available": false,
+      "error": "not found on PATH",
+      "tool": "trivy",
+      "version": null
+    },
+    {
+      "available": false,
+      "error": "not found on PATH",
+      "tool": "grype",
+      "version": null
+    },
+    {
+      "available": true,
+      "returncode": 0,
+      "tool": "npm",
+      "version": "10.9.4"
+    },
+    {
+      "available": false,
+      "error": "not found on PATH",
+      "tool": "pip-audit",
+      "version": null
+    }
+  ]
+}

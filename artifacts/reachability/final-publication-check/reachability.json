@@ -1,0 +1,900 @@
+{
+  "case_count": 50,
+  "cases": [
+    {
+      "case_id": "case_001",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.20"
+        }
+      ]
+    },
+    {
+      "case_id": "case_002",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "5.3.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_003",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.20"
+        }
+      ]
+    },
+    {
+      "case_id": "case_004",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "5.3.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_005",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.20"
+        }
+      ]
+    },
+    {
+      "case_id": "case_006",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "5.3.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_007",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.20"
+        }
+      ]
+    },
+    {
+      "case_id": "case_008",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "5.3.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_009",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "declared_not_used",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_010",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "requests",
+          "reachability_status": "declared_not_used",
+          "version": "2.19.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_011",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "declared_not_used",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_012",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "requests",
+          "reachability_status": "declared_not_used",
+          "version": "2.19.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_013",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "declared_not_used",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_014",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "requests",
+          "reachability_status": "declared_not_used",
+          "version": "2.19.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_015",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "declared_not_used",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_016",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "requests",
+          "reachability_status": "declared_not_used",
+          "version": "2.19.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_017",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "express",
+          "reachability_status": "reachable",
+          "version": "4.16.0"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "qs",
+          "reachability_status": "transitive_only",
+          "version": "6.5.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_018",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "Flask",
+          "reachability_status": "reachable",
+          "version": "0.12.2"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "Jinja2",
+          "reachability_status": "transitive_only",
+          "version": "2.10"
+        }
+      ]
+    },
+    {
+      "case_id": "case_019",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "express",
+          "reachability_status": "reachable",
+          "version": "4.16.0"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "qs",
+          "reachability_status": "transitive_only",
+          "version": "6.5.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_020",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "Flask",
+          "reachability_status": "reachable",
+          "version": "0.12.2"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "Jinja2",
+          "reachability_status": "transitive_only",
+          "version": "2.10"
+        }
+      ]
+    },
+    {
+      "case_id": "case_021",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "express",
+          "reachability_status": "reachable",
+          "version": "4.16.0"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "qs",
+          "reachability_status": "transitive_only",
+          "version": "6.5.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_022",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "Flask",
+          "reachability_status": "reachable",
+          "version": "0.12.2"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "Jinja2",
+          "reachability_status": "transitive_only",
+          "version": "2.10"
+        }
+      ]
+    },
+    {
+      "case_id": "case_023",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "express",
+          "reachability_status": "reachable",
+          "version": "4.16.0"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "qs",
+          "reachability_status": "transitive_only",
+          "version": "6.5.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_024",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "Flask",
+          "reachability_status": "reachable",
+          "version": "0.12.2"
+        },
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "transitive",
+          "direct_or_transitive": "transitive",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "Jinja2",
+          "reachability_status": "transitive_only",
+          "version": "2.10"
+        }
+      ]
+    },
+    {
+      "case_id": "case_025",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "dev_only",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_026",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "urllib3",
+          "reachability_status": "dev_only",
+          "version": "1.24.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_027",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "dev_only",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_028",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "urllib3",
+          "reachability_status": "dev_only",
+          "version": "1.24.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_029",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "dev_only",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_030",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": false,
+          "name": "urllib3",
+          "reachability_status": "dev_only",
+          "version": "1.24.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_031",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "development",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "minimist",
+          "reachability_status": "dev_only",
+          "version": "0.0.8"
+        }
+      ]
+    },
+    {
+      "case_id": "case_032",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.21"
+        }
+      ]
+    },
+    {
+      "case_id": "case_033",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "6.0.2"
+        }
+      ]
+    },
+    {
+      "case_id": "case_034",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.21"
+        }
+      ]
+    },
+    {
+      "case_id": "case_035",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "6.0.2"
+        }
+      ]
+    },
+    {
+      "case_id": "case_036",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.21"
+        }
+      ]
+    },
+    {
+      "case_id": "case_037",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "PyYAML",
+          "reachability_status": "reachable",
+          "version": "6.0.2"
+        }
+      ]
+    },
+    {
+      "case_id": "case_038",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "reachability_status": "reachable",
+          "version": "4.17.21"
+        }
+      ]
+    },
+    {
+      "case_id": "case_039",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "container_layer",
+          "direct_or_transitive": "container_layer",
+          "ecosystem": "linux-package",
+          "imported_by_source": false,
+          "name": "openssl",
+          "reachability_status": "unknown",
+          "version": "1.1.1d-0+deb10u3"
+        }
+      ]
+    },
+    {
+      "case_id": "case_040",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "container_layer",
+          "direct_or_transitive": "container_layer",
+          "ecosystem": "linux-package",
+          "imported_by_source": false,
+          "name": "libssl1.1",
+          "reachability_status": "unknown",
+          "version": "1.1.1d-0+deb10u3"
+        }
+      ]
+    },
+    {
+      "case_id": "case_041",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "container_layer",
+          "direct_or_transitive": "container_layer",
+          "ecosystem": "linux-package",
+          "imported_by_source": false,
+          "name": "libc6",
+          "reachability_status": "unknown",
+          "version": "2.28-10"
+        }
+      ]
+    },
+    {
+      "case_id": "case_042",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "container_layer",
+          "direct_or_transitive": "container_layer",
+          "ecosystem": "linux-package",
+          "imported_by_source": false,
+          "name": "openssl",
+          "reachability_status": "unknown",
+          "version": "1.1.1d-0+deb10u3"
+        }
+      ]
+    },
+    {
+      "case_id": "case_043",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "container_layer",
+          "direct_or_transitive": "container_layer",
+          "ecosystem": "linux-package",
+          "imported_by_source": false,
+          "name": "libssl1.1",
+          "reachability_status": "unknown",
+          "version": "1.1.1d-0+deb10u3"
+        }
+      ]
+    },
+    {
+      "case_id": "case_044",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "container_layer",
+          "direct_or_transitive": "container_layer",
+          "ecosystem": "linux-package",
+          "imported_by_source": false,
+          "name": "libc6",
+          "reachability_status": "unknown",
+          "version": "2.28-10"
+        }
+      ]
+    },
+    {
+      "case_id": "case_045",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "nanoid",
+          "reachability_status": "declared_not_used",
+          "version": "5.0.7"
+        }
+      ]
+    },
+    {
+      "case_id": "case_046",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "packaging",
+          "reachability_status": "reachable",
+          "version": "24.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_047",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "nanoid",
+          "reachability_status": "declared_not_used",
+          "version": "5.0.7"
+        }
+      ]
+    },
+    {
+      "case_id": "case_048",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "packaging",
+          "reachability_status": "reachable",
+          "version": "24.1"
+        }
+      ]
+    },
+    {
+      "case_id": "case_049",
+      "dependencies": [
+        {
+          "called_by_source": false,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "npm",
+          "imported_by_source": false,
+          "name": "nanoid",
+          "reachability_status": "declared_not_used",
+          "version": "5.0.7"
+        }
+      ]
+    },
+    {
+      "case_id": "case_050",
+      "dependencies": [
+        {
+          "called_by_source": true,
+          "declared": true,
+          "dependency_scope": "runtime",
+          "direct_or_transitive": "direct",
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "packaging",
+          "reachability_status": "reachable",
+          "version": "24.1"
+        }
+      ]
+    }
+  ],
+  "claim_scope": "Reachability evidence is limited to local static analysis and does not claim exploitability.",
+  "context_enrichment_csv": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\reachability\\context_enrichment.csv",
+  "dependency_count": 58,
+  "dependency_graph_dir": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\reachability\\dependency_graphs",
+  "reachability_matrix_csv": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\reachability\\reachability_matrix.csv",
+  "reachability_matrix_json": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\reachability\\reachability_matrix.json",
+  "run_id": "final-publication-check"
+}

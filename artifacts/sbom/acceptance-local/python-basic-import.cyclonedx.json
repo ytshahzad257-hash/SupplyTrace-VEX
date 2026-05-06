@@ -1,0 +1,37 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pypi:requests@2.31.0",
+      "name": "requests",
+      "properties": [
+        {
+          "name": "supplytrace:ecosystem",
+          "value": "pypi"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "scope": "runtime",
+      "type": "library",
+      "version": "2.31.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "python-basic-import",
+      "type": "application",
+      "version": "0.1.0"
+    },
+    "timestamp": "2026-05-05T12:27:40.417163+00:00",
+    "tools": [
+      {
+        "name": "manifest-sbom-generator",
+        "vendor": "SupplyTrace-VEX",
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "serialNumber": "urn:uuid:python-basic-import",
+  "specVersion": "1.5",
+  "version": 1
+}

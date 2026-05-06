@@ -1,0 +1,6 @@
+scanner_name,adapter,local_target,raw_output,local_only_scope,tool_available_in_run,success_count,failed_count,unavailable_count,skipped_not_applicable_count
+grype,Grype,case directory or local image reference,JSON when tool produces JSON,local generated testbed paths or local images only,False,0,0,50,0
+npm_audit,npm audit,Node.js case directory with package manifest,JSON from npm audit when applicable,local generated testbed paths only,True,23,0,0,27
+osv,OSV-Scanner,case directory manifest files,JSON when tool produces JSON,local generated testbed paths only,False,0,0,50,0
+pip_audit,pip-audit,Python case directory with requirements manifest,JSON from pip-audit when applicable,local generated testbed paths only,True,21,0,0,29
+trivy,Trivy,case directory or local image reference,JSON when tool produces JSON,local generated testbed paths or local images only,False,0,0,50,0

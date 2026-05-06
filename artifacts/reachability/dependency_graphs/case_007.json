@@ -1,0 +1,88 @@
+{
+  "analysis_limits": [
+    "Static import analysis does not prove exploitability.",
+    "Dynamic imports, reflection, generated code, framework dispatch, and runtime configuration may be missed.",
+    "Transitive dependency reachability is represented conservatively unless directly imported by source."
+  ],
+  "case_id": "case_007",
+  "container_context": {
+    "base_image_expected": null,
+    "claim_scope": "Container context is read from local Dockerfile and fixture metadata only.",
+    "containerized": false,
+    "files": [],
+    "packages_expected": []
+  },
+  "dynamic_imports": [],
+  "edges": [
+    {
+      "relationship": "direct",
+      "source": "case_007",
+      "source_manifest": "package.json",
+      "target": "case_007:lodash"
+    },
+    {
+      "relationship": "imports",
+      "source": "case_007:source:testbed/cases/case_007/src/index.js",
+      "target": "case_007:lodash"
+    }
+  ],
+  "exposure_context": {
+    "claim_scope": "Static source marker inspection only; no service was executed or contacted.",
+    "evidence": [],
+    "exposed_service": false
+  },
+  "javascript_analysis": {
+    "declared_dependencies": [
+      {
+        "dependency_scope": "runtime",
+        "direct_or_transitive": "direct",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "package_manager": "npm",
+        "source_manifest": "package.json",
+        "version": "4.17.20"
+      }
+    ],
+    "dynamic_imports": [],
+    "imports": [
+      {
+        "import_type": "require",
+        "line": 1,
+        "local_name": "lodash",
+        "package": "lodash",
+        "source_file": "testbed/cases/case_007/src/index.js",
+        "specifier": "lodash",
+        "used_in_call": true
+      }
+    ],
+    "parse_errors": []
+  },
+  "nodes": [
+    {
+      "id": "case_007",
+      "label": "case_007",
+      "type": "project"
+    },
+    {
+      "dependency_scope": "runtime",
+      "direct_or_transitive": "direct",
+      "ecosystem": "npm",
+      "id": "case_007:lodash",
+      "label": "lodash",
+      "reachability_status": "reachable",
+      "type": "dependency",
+      "version": "4.17.20"
+    },
+    {
+      "id": "case_007:source:testbed/cases/case_007/src/index.js",
+      "label": "testbed/cases/case_007/src/index.js",
+      "type": "source_file"
+    }
+  ],
+  "python_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  }
+}

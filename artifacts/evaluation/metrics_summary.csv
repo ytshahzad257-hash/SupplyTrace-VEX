@@ -1,0 +1,21 @@
+experiment,method,metric,value,numerator,denominator,status,notes
+E1,raw_scanner,precision,0.391608,,,ok,computed over labeled scanner-backed findings
+E1,raw_scanner,recall,1.0,,,ok,computed over labeled scanner-backed findings
+E1,raw_scanner,f1,0.562814,,,ok,computed over labeled scanner-backed findings
+E2,context_filter,precision,1.0,,,ok,computed over labeled scanner-backed findings
+E2,context_filter,recall,0.428571,,,ok,computed over labeled scanner-backed findings
+E2,context_filter,f1,0.6,,,ok,computed over labeled scanner-backed findings
+E2,proposed_full_model,precision,0.7,,,ok,computed over labeled scanner-backed findings
+E2,proposed_full_model,recall,0.5,,,ok,computed over labeled scanner-backed findings
+E2,proposed_full_model,f1,0.583333,,,ok,computed over labeled scanner-backed findings
+E2,proposed_full_model,false_positive_reduction,0.862069,75,87,ok,computed against raw-scanner-as-retain-all baseline
+E2,proposed_full_model,actionable_findings_retained,28,28,56,ok,true positives retained by proposed actionability decision
+E1,raw_scanner,raw_finding_count,167,,,ok,
+E3,proposed_full_model,top5_actionability,0.2,,,ok,
+E3,proposed_full_model,top10_actionability,0.4,,,ok,
+E3,proposed_full_model,ndcg,0.767359,,,ok,
+E3,proposed_full_model,map,0.458853,,,ok,
+E4,scanner_evidence,scanner_overlap,0.0,0,167,ok,
+E4,scanner_evidence,scanner_disagreement_rate,0.0,0,167,ok,
+E6,scanner_runtime,runtime_per_case_mean,1.90426,,50,ok,
+E7,evidence,evidence_completeness_score_mean,0.822355,,167,ok,

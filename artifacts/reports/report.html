@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SupplyTrace-VEX Research Artifact Report</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; margin: 2rem auto; max-width: 1100px; padding: 0 1rem; color: #17202a; }
+    h1, h2, h3 { line-height: 1.2; }
+    code { background: #f1f5f9; padding: 0.1rem 0.25rem; border-radius: 4px; }
+    pre { background: #f8fafc; border: 1px solid #cbd5e1; padding: 1rem; overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.92rem; }
+    th, td { border: 1px solid #d6dee8; padding: 0.45rem 0.55rem; text-align: left; vertical-align: top; }
+    th { background: #eef3f8; }
+    li { margin: 0.2rem 0; }
+  </style>
+</head>
+<body>
+<h1>SupplyTrace-VEX Research Artifact Report</h1>
+<p>Run ID: <code>final-new-chat-complete</code></p>
+<h2>Project Overview</h2>
+<p>SupplyTrace-VEX is a defensive software supply-chain research artifact for local, reproducible vulnerability prioritization. It combines generated local testbed cases, SBOM evidence, local scanner outputs, normalized findings, static dependency reachability, contextual scoring, VEX-style status generation, and evaluation artifacts.</p>
+<p>This report does not assert scanner findings, performance improvements, or exploitability unless the referenced local artifacts support those statements.</p>
+<h2>Research Questions</h2>
+<p>1. How much vulnerability-evidence data is available from local scanners for the generated testbed cases?</p>
+<p>2. How does static dependency reachability change the interpretation of scanner-backed findings?</p>
+<p>3. How does the proposed SupplyTrace-VEX ranking compare with baseline rankings when labeled scanner-backed findings exist?</p>
+<p>4. Where do scanner availability, scanner overlap, and evidence completeness limit prioritization claims?</p>
+<h2>Methodology Summary</h2>
+<p>The pipeline builds local testbed cases, generates SBOM files, runs configured scanners against local targets, normalizes scanner JSON, analyzes source reachability without executing project code, scores findings with configurable evidence weights, generates VEX-style project evidence records, evaluates against local labels when possible, and emits reproducible report artifacts.</p>
+<h2>Input Status</h2>
+<p>No required reporting inputs were missing.</p>
+<h2>Scanner Status</h2>
+<table>
+<thead><tr><th>Scanner execution status</th><th>Rows</th></tr></thead>
+<tbody>
+<tr><td>skipped_not_applicable</td><td>56</td></tr>
+<tr><td>success</td><td>44</td></tr>
+<tr><td>unavailable</td><td>150</td></tr>
+</tbody></table>
+<table>
+<thead><tr><th>Scanner</th><th>Successful local runs</th></tr></thead>
+<tbody>
+<tr><td>npm_audit</td><td>23</td></tr>
+<tr><td>pip_audit</td><td>21</td></tr>
+</tbody></table>
+<h2>SBOM Summary</h2>
+<table>
+<thead><tr><th>SBOM output</th><th>Generated files</th></tr></thead>
+<tbody>
+<tr><td>internal_fallback</td><td>50</td></tr>
+<tr><td>cyclonedx_real_tool_output</td><td>21</td></tr>
+<tr><td>spdx_real_tool_output</td><td>0</td></tr>
+</tbody></table>
+<ul>
+<li>External SBOM count: 21</li>
+</ul>
+<h2>Normalized Findings Summary</h2>
+<ul>
+<li>Normalized finding rows: 167</li>
+<li>Package version missing rows: 0</li>
+<li>Normalization summary status: Normalized findings are derived only from raw local scanner JSON. Missing fields are represented as null or unknown and recorded in normalization_warnings.csv.</li>
+<li>Zero-finding warning: False</li>
+</ul>
+<h2>Reachability Summary</h2>
+<ul>
+<li>Reachability dependency rows: 58</li>
+<li>Reachability summary: Reachability evidence is limited to local static analysis and does not claim exploitability.</li>
+</ul>
+<table>
+<thead><tr><th>Reachability status</th><th>Dependencies</th></tr></thead>
+<tbody>
+<tr><td>declared_not_used</td><td>11</td></tr>
+<tr><td>dev_only</td><td>7</td></tr>
+<tr><td>reachable</td><td>26</td></tr>
+<tr><td>transitive_only</td><td>8</td></tr>
+<tr><td>unknown</td><td>6</td></tr>
+</tbody></table>
+<h2>Risk Scoring Summary</h2>
+<ul>
+<li>Risk score rows: 167</li>
+<li>Precision: 0.7 (ok)</li>
+<li>Recall: 0.5 (ok)</li>
+<li>F1: 0.583333 (ok)</li>
+<li>False-positive reduction: 0.862069 (ok)</li>
+</ul>
+<p>Scores rank defensive actionability evidence. They do not prove exploitability.</p>
+<h2>VEX Summary</h2>
+<ul>
+<li>VEX-style record rows: 167</li>
+<li>VEX status distribution rows: 4</li>
+</ul>
+<p>These are project-evidence-based VEX-style statuses, not official vendor VEX statements.</p>
+<h2>Evaluation Metrics</h2>
+<ul>
+<li>Ground-truth case rows: 50</li>
+<li>Normalized findings available for evaluation: 167</li>
+<li>Paper-result claims supported: review generated metrics before claiming</li>
+<li>Proposed MAP: 0.458853 (ok)</li>
+<li>Proposed NDCG: 0.767359 (ok)</li>
+<li>Evidence completeness mean: 0.822355 (ok)</li>
+</ul>
+<h2>Baseline Comparison</h2>
+<p>The proposed contextual model did not outperform the reachability-only baseline in this run; claims must be limited to evidence-backed observations.</p>
+<table>
+<thead><tr><th>Method</th><th>Labeled</th><th>Top-5</th><th>Top-10</th><th>NDCG</th><th>MAP</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>cvss_only</td><td>143</td><td>0.0</td><td>0.0</td><td>0.720119</td><td>0.418589</td><td>ok</td></tr>
+<tr><td>direct_dependency_first</td><td>143</td><td>0.2</td><td>0.2</td><td>0.710429</td><td>0.351517</td><td>ok</td></tr>
+<tr><td>proposed_full_model</td><td>143</td><td>0.2</td><td>0.4</td><td>0.767359</td><td>0.458853</td><td>ok</td></tr>
+<tr><td>reachability_only</td><td>143</td><td>0.2</td><td>0.4</td><td>0.781992</td><td>0.498147</td><td>ok</td></tr>
+<tr><td>runtime_dependency_first</td><td>143</td><td>0.2</td><td>0.3</td><td>0.758405</td><td>0.456226</td><td>ok</td></tr>
+<tr><td>scanner_native_priority</td><td>143</td><td>0.0</td><td>0.0</td><td>0.720119</td><td>0.418589</td><td>ok</td></tr>
+<tr><td>severity_only</td><td>143</td><td>0.0</td><td>0.0</td><td>0.718792</td><td>0.41365</td><td>ok</td></tr>
+</tbody></table>
+<h2>Ablation Study</h2>
+<table>
+<thead><tr><th>Variant</th><th>Top-5</th><th>Top-10</th><th>NDCG</th><th>MAP</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>full_model</td><td>0.2</td><td>0.4</td><td>0.767359</td><td>0.458853</td><td>ok</td></tr>
+<tr><td>no_reachability</td><td>0.0</td><td>0.0</td><td>0.720119</td><td>0.418589</td><td>ok</td></tr>
+<tr><td>no_dependency_scope</td><td>0.2</td><td>0.6</td><td>0.78358</td><td>0.488275</td><td>ok</td></tr>
+<tr><td>no_scanner_agreement</td><td>0.2</td><td>0.6</td><td>0.78358</td><td>0.488275</td><td>ok</td></tr>
+<tr><td>severity_only</td><td>0.0</td><td>0.0</td><td>0.720119</td><td>0.418589</td><td>ok</td></tr>
+<tr><td>context_only</td><td>0.2</td><td>0.4</td><td>0.825735</td><td>0.670984</td><td>ok</td></tr>
+</tbody></table>
+<h2>Paper-Ready Tables</h2>
+<table>
+<thead><tr><th>File</th><th>Table</th><th>Path</th></tr></thead>
+<tbody>
+<tr><td>table_01_testbed_taxonomy.csv</td><td>Testbed Case Taxonomy</td><td>artifacts/reports/tables/table_01_testbed_taxonomy.csv</td></tr>
+<tr><td>table_02_scanner_tool_capability_matrix.csv</td><td>Scanner Tool Capability Matrix</td><td>artifacts/reports/tables/table_02_scanner_tool_capability_matrix.csv</td></tr>
+<tr><td>table_03_ground_truth_label_distribution.csv</td><td>Ground Truth Label Distribution</td><td>artifacts/reports/tables/table_03_ground_truth_label_distribution.csv</td></tr>
+<tr><td>table_04_normalized_finding_schema.csv</td><td>Normalized Finding Schema</td><td>artifacts/reports/tables/table_04_normalized_finding_schema.csv</td></tr>
+<tr><td>table_05_risk_scoring_factors.csv</td><td>Risk Scoring Factors</td><td>artifacts/reports/tables/table_05_risk_scoring_factors.csv</td></tr>
+<tr><td>table_06_baseline_comparison_results.csv</td><td>Baseline Comparison Results</td><td>artifacts/reports/tables/table_06_baseline_comparison_results.csv</td></tr>
+<tr><td>table_07_scanner_disagreement_matrix.csv</td><td>Scanner Disagreement Matrix</td><td>artifacts/reports/tables/table_07_scanner_disagreement_matrix.csv</td></tr>
+<tr><td>table_08_ablation_study_results.csv</td><td>Ablation Study Results</td><td>artifacts/reports/tables/table_08_ablation_study_results.csv</td></tr>
+<tr><td>table_09_runtime_summary.csv</td><td>Runtime Summary</td><td>artifacts/reports/tables/table_09_runtime_summary.csv</td></tr>
+<tr><td>table_10_limitations.csv</td><td>Limitations and Validity Threats</td><td>artifacts/reports/tables/table_10_limitations.csv</td></tr>
+</tbody></table>
+<h2>Figure-Ready Data</h2>
+<table>
+<thead><tr><th>File</th><th>Path</th></tr></thead>
+<tbody>
+<tr><td>architecture_mermaid.md</td><td>artifacts/figures_data/architecture_mermaid.md</td></tr>
+<tr><td>pipeline_mermaid.md</td><td>artifacts/figures_data/pipeline_mermaid.md</td></tr>
+<tr><td>scanner_overlap.csv</td><td>artifacts/figures_data/scanner_overlap.csv</td></tr>
+<tr><td>risk_distribution.csv</td><td>artifacts/figures_data/risk_distribution.csv</td></tr>
+<tr><td>topk_actionability.csv</td><td>artifacts/figures_data/topk_actionability.csv</td></tr>
+<tr><td>alert_reduction.csv</td><td>artifacts/figures_data/alert_reduction.csv</td></tr>
+<tr><td>vex_status_distribution.csv</td><td>artifacts/figures_data/vex_status_distribution.csv</td></tr>
+<tr><td>ablation_chart_data.csv</td><td>artifacts/figures_data/ablation_chart_data.csv</td></tr>
+<tr><td>runtime_chart_data.csv</td><td>artifacts/figures_data/runtime_chart_data.csv</td></tr>
+</tbody></table>
+<h2>Limitations</h2>
+<ul>
+<li>Static reachability can miss dynamic imports, reflection, generated code, framework dispatch, and runtime-only behavior.</li>
+<li>Scanner outputs depend on tools installed locally and their available databases.</li>
+<li>Missing scanner output is reported as missing or unavailable, not replaced with synthetic findings.</li>
+<li>Ground truth labels describe intended project-context actionability for controlled local cases.</li>
+<li>Metrics marked <code>not_available</code> must not be interpreted as zero effectiveness or as evidence of improvement.</li>
+</ul>
+<h2>Ethics and Safety Statement</h2>
+<p>SupplyTrace-VEX is scoped to defensive local research. The project must not be used to scan third-party systems, probe public services, exploit vulnerabilities, or represent generated local cases as measurements from real organizations.</p>
+<h2>Reproducibility Instructions</h2>
+<p>Run the full local pipeline with:</p>
+<pre><code>python -m supplytrace run-all --run-id paper-repro-001
+python -m supplytrace report --run-id paper-repro-001</code></pre>
+<p>Then review <code>artifacts/reports</code>, <code>artifacts/figures_data</code>, <code>artifacts/evaluation</code>, and <code>docs/manuscript_support.md</code>.</p>
+</body>
+</html>

@@ -1,0 +1,1 @@
+finding_id,source,vulnerability_id,package_name,package_version,severity,case_id,declared_dependency,static_import_reachable,contextual_risk_score

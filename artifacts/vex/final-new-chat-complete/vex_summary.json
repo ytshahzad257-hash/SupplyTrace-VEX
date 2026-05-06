@@ -1,0 +1,25 @@
+{
+  "claim_scope": "Compatibility summary only; canonical outputs are project-evidence-based VEX-style case files.",
+  "generated_at": "2026-05-06T17:36:36.532927+00:00",
+  "record_count": 167,
+  "run_id": "final-new-chat-complete",
+  "status_distribution": [
+    {
+      "count": 0,
+      "status": "affected"
+    },
+    {
+      "count": 12,
+      "status": "fixed"
+    },
+    {
+      "count": 0,
+      "status": "not_affected"
+    },
+    {
+      "count": 155,
+      "status": "under_investigation"
+    }
+  ],
+  "warning_count": 167
+}

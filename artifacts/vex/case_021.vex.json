@@ -1,0 +1,182 @@
+{
+  "case_id": "case_021",
+  "claim_scope": "This file contains local research status records derived from normalized scanner findings, reachability evidence, context enrichment, and scoring artifacts. It is not an official vendor VEX claim.",
+  "document_type": "SupplyTrace-VEX project-evidence-based VEX-style status document",
+  "generated_at": "2026-05-06T17:36:36.532927+00:00",
+  "notes": "Records are limited to scanner-backed findings present in normalized artifacts.",
+  "records": [
+    {
+      "case_id": "case_021",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": true,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;exposed_service;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 97.0,
+          "score_explanation": "scanner_native_priority=50.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; exposed_service=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_021.json"
+        ]
+      },
+      "finding_id": "fbe8c3351a4aa3daa501",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "express",
+      "package_version": "4.16.0",
+      "status": "under_investigation",
+      "vulnerability_id": "1100530"
+    },
+    {
+      "case_id": "case_021",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": true,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;exposed_service;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 100.0,
+          "score_explanation": "scanner_native_priority=61.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; exposed_service=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_021.json"
+        ]
+      },
+      "finding_id": "3d9f44081bd207805296",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "express",
+      "package_version": "4.16.0",
+      "status": "under_investigation",
+      "vulnerability_id": "1111636"
+    },
+    {
+      "case_id": "case_021",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": false,
+          "exposed_service": true,
+          "fixed_version_available": true,
+          "package_reachable": false,
+          "runtime_dependency": false,
+          "transitive_dependency": true
+        },
+        "dependency_scope": "transitive",
+        "reachability_status": "transitive_only",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;exposed_service;fixed_version;fixed_version_available;reachability_status;scanner_confidence;severity;transitive_dependency",
+          "proposed_priority": "medium",
+          "proposed_score": 60.0,
+          "score_explanation": "scanner_native_priority=75.0; transitive_only=-12.0; transitive_without_reachable_path=-12.0; exposed_service=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_021.json"
+        ]
+      },
+      "finding_id": "607b0e0584b8e5403e59",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "qs",
+      "package_version": "6.5.1",
+      "status": "under_investigation",
+      "vulnerability_id": "1104118"
+    },
+    {
+      "case_id": "case_021",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": false,
+          "exposed_service": true,
+          "fixed_version_available": true,
+          "package_reachable": false,
+          "runtime_dependency": false,
+          "transitive_dependency": true
+        },
+        "dependency_scope": "transitive",
+        "reachability_status": "transitive_only",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;exposed_service;fixed_version;fixed_version_available;reachability_status;scanner_confidence;severity;transitive_dependency",
+          "proposed_priority": "low",
+          "proposed_score": 22.0,
+          "score_explanation": "scanner_native_priority=37.0; transitive_only=-12.0; transitive_without_reachable_path=-12.0; exposed_service=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_021.json"
+        ]
+      },
+      "finding_id": "69fd8f073f58a30ab20e",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "qs",
+      "package_version": "6.5.1",
+      "status": "under_investigation",
+      "vulnerability_id": "1113719"
+    }
+  ],
+  "run_id": "final-new-chat-complete"
+}

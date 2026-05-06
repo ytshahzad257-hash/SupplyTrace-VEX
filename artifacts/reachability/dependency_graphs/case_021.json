@@ -1,0 +1,119 @@
+{
+  "analysis_limits": [
+    "Static import analysis does not prove exploitability.",
+    "Dynamic imports, reflection, generated code, framework dispatch, and runtime configuration may be missed.",
+    "Transitive dependency reachability is represented conservatively unless directly imported by source."
+  ],
+  "case_id": "case_021",
+  "container_context": {
+    "base_image_expected": null,
+    "claim_scope": "Container context is read from local Dockerfile and fixture metadata only.",
+    "containerized": false,
+    "files": [],
+    "packages_expected": []
+  },
+  "dynamic_imports": [],
+  "edges": [
+    {
+      "relationship": "direct",
+      "source": "case_021",
+      "source_manifest": "package.json",
+      "target": "case_021:express"
+    },
+    {
+      "relationship": "imports",
+      "source": "case_021:source:testbed/cases/case_021/src/index.js",
+      "target": "case_021:express"
+    },
+    {
+      "relationship": "transitive",
+      "source": "case_021",
+      "source_manifest": "package-lock.json",
+      "target": "case_021:qs"
+    }
+  ],
+  "exposure_context": {
+    "claim_scope": "Static source marker inspection only; no service was executed or contacted.",
+    "evidence": [
+      {
+        "marker": "express(",
+        "reason": "static service exposure marker",
+        "source_file": "E:\\Publication\\Projects\\03_01\\supplytrace-vex 01\\testbed\\cases\\case_021\\src\\index.js"
+      }
+    ],
+    "exposed_service": true
+  },
+  "javascript_analysis": {
+    "declared_dependencies": [
+      {
+        "dependency_scope": "runtime",
+        "direct_or_transitive": "direct",
+        "ecosystem": "npm",
+        "name": "express",
+        "package_manager": "npm",
+        "source_manifest": "package.json",
+        "version": "4.16.0"
+      },
+      {
+        "dependency_scope": "transitive",
+        "direct_or_transitive": "transitive",
+        "ecosystem": "npm",
+        "name": "qs",
+        "package_manager": "npm",
+        "source_manifest": "package-lock.json",
+        "version": "6.5.1"
+      }
+    ],
+    "dynamic_imports": [],
+    "imports": [
+      {
+        "import_type": "require",
+        "line": 1,
+        "local_name": "express",
+        "package": "express",
+        "source_file": "testbed/cases/case_021/src/index.js",
+        "specifier": "express",
+        "used_in_call": true
+      }
+    ],
+    "parse_errors": []
+  },
+  "nodes": [
+    {
+      "id": "case_021",
+      "label": "case_021",
+      "type": "project"
+    },
+    {
+      "dependency_scope": "runtime",
+      "direct_or_transitive": "direct",
+      "ecosystem": "npm",
+      "id": "case_021:express",
+      "label": "express",
+      "reachability_status": "reachable",
+      "type": "dependency",
+      "version": "4.16.0"
+    },
+    {
+      "id": "case_021:source:testbed/cases/case_021/src/index.js",
+      "label": "testbed/cases/case_021/src/index.js",
+      "type": "source_file"
+    },
+    {
+      "dependency_scope": "transitive",
+      "direct_or_transitive": "transitive",
+      "ecosystem": "npm",
+      "id": "case_021:qs",
+      "label": "qs",
+      "reachability_status": "transitive_only",
+      "type": "dependency",
+      "version": "6.5.1"
+    }
+  ],
+  "python_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  }
+}

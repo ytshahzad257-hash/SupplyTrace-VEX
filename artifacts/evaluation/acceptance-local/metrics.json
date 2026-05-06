@@ -1,0 +1,6 @@
+{
+  "claim_scope": "No effectiveness metrics are reported without explicit labels.",
+  "reason": "No vulnerability_labels.json file exists in testbed/ground_truth.",
+  "run_id": "acceptance-local",
+  "status": "not_available"
+}

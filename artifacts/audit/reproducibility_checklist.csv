@@ -1,0 +1,9 @@
+check_id,check,status,evidence,notes
+A01,pytest,pass,python -m pytest -q,executed by audit unless disabled
+A02,required artifact folders,pass,artifacts,
+A03,scanner metadata,pass,rows=250,
+A04,no third-party scanner targets,pass,remote rows=0,scanner command metadata searched for URL/SSH/git markers
+A05,no fake scanner outputs,pass,unreferenced scanner JSON=0,only adapter case JSON files are checked
+A06,documentation complete,pass,all required docs exist,
+A07,unsupported claim scan,pass,hits=0,
+A08,evidence readiness,fail,no,score=10.0

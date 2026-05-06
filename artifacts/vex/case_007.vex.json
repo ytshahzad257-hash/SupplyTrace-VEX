@@ -1,0 +1,225 @@
+{
+  "case_id": "case_007",
+  "claim_scope": "This file contains local research status records derived from normalized scanner findings, reachability evidence, context enrichment, and scoring artifacts. It is not an official vendor VEX claim.",
+  "document_type": "SupplyTrace-VEX project-evidence-based VEX-style status document",
+  "generated_at": "2026-05-06T17:36:36.532927+00:00",
+  "notes": "Records are limited to scanner-backed findings present in normalized artifacts.",
+  "records": [
+    {
+      "case_id": "case_007",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": false,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 100.0,
+          "score_explanation": "scanner_native_priority=72.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_007.json"
+        ]
+      },
+      "finding_id": "6da7dcb28d93ec354a24",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "lodash",
+      "package_version": "4.17.20",
+      "status": "under_investigation",
+      "vulnerability_id": "1106913"
+    },
+    {
+      "case_id": "case_007",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": false,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 92.0,
+          "score_explanation": "scanner_native_priority=53.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_007.json"
+        ]
+      },
+      "finding_id": "45443f83d7ffae16b2d5",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "lodash",
+      "package_version": "4.17.20",
+      "status": "under_investigation",
+      "vulnerability_id": "1108258"
+    },
+    {
+      "case_id": "case_007",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": false,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 100.0,
+          "score_explanation": "scanner_native_priority=65.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_007.json"
+        ]
+      },
+      "finding_id": "986bbcaa99630768b294",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "lodash",
+      "package_version": "4.17.20",
+      "status": "under_investigation",
+      "vulnerability_id": "1112455"
+    },
+    {
+      "case_id": "case_007",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": false,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 100.0,
+          "score_explanation": "scanner_native_priority=81.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_007.json"
+        ]
+      },
+      "finding_id": "9a73980d7096056ad7a1",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "lodash",
+      "package_version": "4.17.20",
+      "status": "under_investigation",
+      "vulnerability_id": "1115806"
+    },
+    {
+      "case_id": "case_007",
+      "evidence": {
+        "confidence_level": "low",
+        "context_fields": {
+          "containerized": false,
+          "dev_dependency": false,
+          "direct_dependency": true,
+          "exposed_service": false,
+          "fixed_version_available": true,
+          "package_reachable": true,
+          "runtime_dependency": true,
+          "transitive_dependency": false
+        },
+        "dependency_scope": "runtime",
+        "reachability_status": "reachable",
+        "risk_score": {
+          "evidence_fields_used": "cvss_score;direct_dependency;fixed_version;fixed_version_available;package_reachable;reachability_status;runtime_dependency;scanner_confidence;severity",
+          "proposed_priority": "critical",
+          "proposed_score": 100.0,
+          "score_explanation": "scanner_native_priority=65.0; reachable=+20.0; runtime_dependency=+10.0; direct_dependency=+8.0; fixed_version_available=+5.0; missing_evidence(scanner_confidence)=-4.0; prioritization score only, not an exploitability claim"
+        },
+        "scanner_names": [
+          "npm_audit"
+        ],
+        "scanner_output_paths": [
+          "artifacts\\scanner_raw\\npm_audit\\case_007.json"
+        ]
+      },
+      "finding_id": "ea5036e04bae5a560aa8",
+      "generated_at": "2026-05-06T17:36:36.532927+00:00",
+      "justification": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "limitations": [
+        "This is a SupplyTrace-VEX project-evidence-based VEX-style status, not an official vendor VEX attestation.",
+        "Static reachability analysis can miss dynamic imports, reflection, framework dispatch, and generated code.",
+        "Scanner availability, scanner databases, and raw scanner output quality limit the strength of status assignment.",
+        "Status records prioritize defensive triage and do not prove exploitability or non-exploitability."
+      ],
+      "package_name": "lodash",
+      "package_version": "4.17.20",
+      "status": "under_investigation",
+      "vulnerability_id": "1115810"
+    }
+  ],
+  "run_id": "final-new-chat-complete"
+}

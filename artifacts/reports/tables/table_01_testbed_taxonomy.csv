@@ -1,0 +1,14 @@
+category,ecosystem,expected_actionability_label,case_count
+clean_control,nodejs,clean,3
+clean_control,python,clean,3
+container_vulnerable_layer,container,unknown_until_scanned,6
+patched_dependency,nodejs,fixed,4
+patched_dependency,python,fixed,3
+vulnerable_dev_only,nodejs,non_actionable,4
+vulnerable_dev_only,python,non_actionable,3
+vulnerable_reachable_direct,nodejs,actionable,4
+vulnerable_reachable_direct,python,actionable,4
+vulnerable_reachable_transitive,nodejs,actionable,4
+vulnerable_reachable_transitive,python,actionable,4
+vulnerable_unreachable_direct,nodejs,non_actionable,4
+vulnerable_unreachable_direct,python,non_actionable,4

@@ -1,0 +1,25 @@
+{
+  "claim_scope": "Compatibility summary only; canonical outputs are project-evidence-based VEX-style case files.",
+  "generated_at": "2026-05-06T12:48:51.648851+00:00",
+  "record_count": 67,
+  "run_id": "final-real-evidence",
+  "status_distribution": [
+    {
+      "count": 0,
+      "status": "affected"
+    },
+    {
+      "count": 0,
+      "status": "fixed"
+    },
+    {
+      "count": 0,
+      "status": "not_affected"
+    },
+    {
+      "count": 67,
+      "status": "under_investigation"
+    }
+  ],
+  "warning_count": 67
+}

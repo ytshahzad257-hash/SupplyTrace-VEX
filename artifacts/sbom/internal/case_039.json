@@ -1,0 +1,34 @@
+{
+  "case_id": "case_039",
+  "components": [
+    {
+      "dependency_scope": "container_layer",
+      "direct_or_transitive": "container_layer",
+      "ecosystem": "linux-package",
+      "name": "openssl",
+      "package_manager": "dockerfile",
+      "source_manifest": "container-manifest.json",
+      "version": "1.1.1d-0+deb10u3"
+    }
+  ],
+  "format": "internal_fallback",
+  "generated_at": "2026-05-06T17:28:30.138746+00:00",
+  "metadata": {
+    "case_hash": "152b829028a5dde719aae5496c389f9aa8c2dfceca1dac2095282a775e9d3ba8",
+    "generation_command": [
+      "python",
+      "-m",
+      "supplytrace",
+      "generate-sbom"
+    ],
+    "notes": [
+      "Internal fallback SBOM derived from local manifests only.",
+      "This file is not external CycloneDX or SPDX tool output.",
+      "External SBOM formats were not generated for all requested formats; see sbom_generation_metadata.csv."
+    ]
+  },
+  "sbom_format": "internal_fallback",
+  "tool_name": "supplytrace-manifest-parser",
+  "tool_status": "generated",
+  "tool_version": "0.1.0"
+}

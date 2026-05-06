@@ -1,0 +1,1349 @@
+{
+  "@id": "urn:supplytrace-vex:final-real-evidence",
+  "author": "SupplyTrace-VEX",
+  "claim_scope": "Compatibility summary only; canonical outputs are project-evidence-based VEX-style case files.",
+  "statements": [
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_001",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1106913"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_001",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1108258"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_001",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_001",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_001",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_003",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1106913"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_003",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1108258"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_003",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_003",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_003",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_005",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1106913"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_005",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1108258"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_005",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_005",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_005",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_007",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1106913"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_007",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1108258"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_007",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_007",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_007",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_009",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_009",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_011",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_011",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_013",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_013",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_015",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_015",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_017",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1100530"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_017",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1111636"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_017",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1104118"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_017",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1113719"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_019",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1100530"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_019",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1111636"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_019",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1104118"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_019",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1113719"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_021",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1100530"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_021",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1111636"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_021",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1104118"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_021",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1113719"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_023",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1100530"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_023",
+          "subcomponents": [
+            {
+              "name": "express",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1111636"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_023",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1104118"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_023",
+          "subcomponents": [
+            {
+              "name": "qs",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1113719"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_025",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_025",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_027",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_027",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_029",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_029",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_031",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1096466"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_031",
+          "subcomponents": [
+            {
+              "name": "minimist",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1097677"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_032",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_032",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_032",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_034",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_034",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_034",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_036",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_036",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_036",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_038",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1112455"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_038",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115806"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_038",
+          "subcomponents": [
+            {
+              "name": "lodash",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1115810"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_045",
+          "subcomponents": [
+            {
+              "name": "nanoid",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1109564"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_047",
+          "subcomponents": [
+            {
+              "name": "nanoid",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1109564"
+      }
+    },
+    {
+      "action_statement": "Review linked SupplyTrace-VEX evidence before operational use.",
+      "impact_statement": "Evidence is incomplete or static reachability is unknown, so the status is not promoted to affected or not_affected.",
+      "products": [
+        {
+          "@id": "case_049",
+          "subcomponents": [
+            {
+              "name": "nanoid",
+              "version": null
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "timestamp": "2026-05-06T12:48:51.648851+00:00",
+      "vulnerability": {
+        "name": "1109564"
+      }
+    }
+  ],
+  "timestamp": "2026-05-06T12:48:51.648851+00:00",
+  "version": 1
+}

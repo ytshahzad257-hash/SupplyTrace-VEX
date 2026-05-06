@@ -1,0 +1,136 @@
+{
+  "artifact_status": {
+    "docker_status": {
+      "details": "not found on PATH",
+      "status": "unavailable",
+      "verified": false
+    },
+    "external_sbom_count": 21,
+    "git_status": {
+      "clean": false,
+      "details": "Command '('C:\\\\Program Files\\\\Git\\\\cmd\\\\git.EXE', 'status', '--short')' returned non-zero exit status 128.",
+      "status": "dirty_or_unavailable"
+    },
+    "pytest_status": "pass",
+    "remote_scanner_command_count": 0,
+    "reports_generated": true,
+    "unreferenced_scanner_output_count": 0
+  },
+  "blocking_issues": [],
+  "generated_at": "2026-05-06T18:54:40.310436+00:00",
+  "metric_status": {
+    "normalized_finding_count": 167,
+    "package_version_missing_count": 0,
+    "real_metric_count": 15,
+    "risk_score_count": 167,
+    "vex_summary_count": 167
+  },
+  "readiness_score_out_of_10": 10.0,
+  "ready_for_paper_results": "no",
+  "required_next_actions": [
+    "Docker is not verified in this environment: unavailable",
+    "GitHub cleanliness is not verified: dirty_or_unavailable"
+  ],
+  "run_id": "vscode-check",
+  "scanner_status": {
+    "installed_scanner_count": 2,
+    "scanner_output_file_count": 44,
+    "scanner_success_count": 44,
+    "status_counts": {
+      "skipped_not_applicable": 56,
+      "success": 44,
+      "unavailable": 150
+    }
+  },
+  "supported_claims": [
+    "local testbed generation is reproducible",
+    "missing scanner tools are reported in generated metadata",
+    "reports distinguish unavailable evidence from generated evidence"
+  ],
+  "tool_rows": [
+    {
+      "available": true,
+      "notes": "",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "python",
+      "version": "Python 3.13.12"
+    },
+    {
+      "available": true,
+      "notes": "",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "node",
+      "version": "v22.22.0"
+    },
+    {
+      "available": true,
+      "notes": "",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "npm",
+      "version": "10.9.4"
+    },
+    {
+      "available": true,
+      "notes": "",
+      "source": "python -m pip_audit:vscode-check",
+      "tool": "pip-audit",
+      "version": "pip-audit 2.10.0"
+    },
+    {
+      "available": false,
+      "notes": "not found on PATH",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "osv-scanner",
+      "version": null
+    },
+    {
+      "available": false,
+      "notes": "not found on PATH",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "trivy",
+      "version": null
+    },
+    {
+      "available": false,
+      "notes": "not found on PATH",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "grype",
+      "version": null
+    },
+    {
+      "available": false,
+      "notes": "not found on PATH",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "syft",
+      "version": null
+    },
+    {
+      "available": false,
+      "notes": "Command '('E:\\\\Publication\\\\Projects\\\\03_01\\\\supplytrace-vex 01\\\\.venv\\\\Scripts\\\\python.exe', '-m', 'cyclonedx_py', '--version')' returned non-zero exit status 1.",
+      "source": "python -m cyclonedx_py:vscode-check",
+      "tool": "cyclonedx-py",
+      "version": null
+    },
+    {
+      "available": true,
+      "notes": "",
+      "source": "python -m pytest:vscode-check",
+      "tool": "pytest",
+      "version": "pytest 9.0.3"
+    },
+    {
+      "available": false,
+      "notes": "not found on PATH",
+      "source": "capture_tool_version:vscode-check",
+      "tool": "docker",
+      "version": null
+    }
+  ],
+  "unsupported_claims": [
+    "Docker execution success in this host environment"
+  ],
+  "warnings": [
+    "Docker is not verified in this environment: unavailable",
+    "GitHub cleanliness is not verified: dirty_or_unavailable"
+  ]
+}

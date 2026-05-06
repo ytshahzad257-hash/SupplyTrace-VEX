@@ -1,0 +1,14 @@
+{
+  "claim_scope": "Normalized findings are derived only from raw local scanner JSON. Missing fields are represented as null or unknown and recorded in normalization_warnings.csv.",
+  "findings_csv": "artifacts/normalized/findings_normalized.csv",
+  "findings_json": "artifacts/normalized/findings_normalized.json",
+  "normalized_finding_count": 167,
+  "parser_coverage_summary_csv": "artifacts/normalized/parser_coverage_summary.csv",
+  "raw_finding_records": 181,
+  "raw_scanner_files_considered": 44,
+  "raw_scanner_files_parsed": 44,
+  "run_id": "final-new-chat-complete",
+  "warning_count": 523,
+  "warnings_csv": "artifacts/normalized/normalization_warnings.csv",
+  "zero_finding_warning": false
+}

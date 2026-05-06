@@ -1,0 +1,68 @@
+{
+  "analysis_limits": [
+    "Static import analysis does not prove exploitability.",
+    "Dynamic imports, reflection, generated code, framework dispatch, and runtime configuration may be missed.",
+    "Transitive dependency reachability is represented conservatively unless directly imported by source."
+  ],
+  "case_id": "case_041",
+  "container_context": {
+    "base_image_expected": "scratch",
+    "claim_scope": "Container context is read from local Dockerfile and fixture metadata only.",
+    "containerized": true,
+    "files": [
+      "E:\\Publication\\Projects\\03_01\\supplytrace-vex 01\\testbed\\cases\\case_041\\Dockerfile",
+      "E:\\Publication\\Projects\\03_01\\supplytrace-vex 01\\testbed\\cases\\case_041\\container-manifest.json"
+    ],
+    "packages_expected": [
+      {
+        "ecosystem": "linux-package",
+        "name": "libc6",
+        "scope": "container_layer",
+        "version": "2.28-10"
+      }
+    ]
+  },
+  "dynamic_imports": [],
+  "edges": [
+    {
+      "relationship": "container_layer",
+      "source": "case_041",
+      "source_manifest": "container-manifest.json",
+      "target": "case_041:libc6"
+    }
+  ],
+  "exposure_context": {
+    "claim_scope": "Static source marker inspection only; no service was executed or contacted.",
+    "evidence": [],
+    "exposed_service": false
+  },
+  "javascript_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  },
+  "nodes": [
+    {
+      "id": "case_041",
+      "label": "case_041",
+      "type": "project"
+    },
+    {
+      "dependency_scope": "container_layer",
+      "direct_or_transitive": "container_layer",
+      "ecosystem": "linux-package",
+      "id": "case_041:libc6",
+      "label": "libc6",
+      "reachability_status": "unknown",
+      "type": "dependency",
+      "version": "2.28-10"
+    }
+  ],
+  "python_analysis": {
+    "declared_dependencies": [],
+    "dynamic_imports": [],
+    "imports": [],
+    "parse_errors": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "claim_scope": "Evaluation metrics are computed only from generated local artifacts. Missing findings, missing scanner outputs, and unlabeled rows are reported rather than inferred.",
+  "finding_count": 67,
+  "input_warnings": [],
+  "labeled_finding_count": 59,
+  "metrics": {
+    "binary": {
+      "actionable_findings_retained": 24,
+      "context_filter": {
+        "f1": 0.666667,
+        "false_negative": 8,
+        "false_positive": 12,
+        "method": "context_filter",
+        "notes": "computed over labeled scanner-backed findings",
+        "precision": 0.625,
+        "recall": 0.714286,
+        "status": "ok",
+        "true_negative": 19,
+        "true_positive": 20
+      },
+      "false_positive_reduction": 0.225806,
+      "proposed": {
+        "f1": 0.631579,
+        "false_negative": 4,
+        "false_positive": 24,
+        "method": "proposed_full_model",
+        "notes": "computed over labeled scanner-backed findings",
+        "precision": 0.5,
+        "recall": 0.857143,
+        "status": "ok",
+        "true_negative": 7,
+        "true_positive": 24
+      },
+      "raw": {
+        "f1": 0.643678,
+        "false_negative": 0,
+        "false_positive": 31,
+        "method": "raw_scanner",
+        "notes": "computed over labeled scanner-backed findings",
+        "precision": 0.474576,
+        "recall": 1.0,
+        "status": "ok",
+        "true_negative": 0,
+        "true_positive": 28
+      }
+    },
+    "scanner_disagreement": {
+      "finding_count": 67,
+      "multi_scanner_findings": 0,
+      "overlapping_pair_count": 0,
+      "scanner_disagreement_count": 0,
+      "scanner_disagreement_rate": 0.0,
+      "scanner_overlap": 0.0,
+      "scanner_pair_count": 0
+    }
+  },
+  "outputs": {
+    "ablation_results": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\ablation_results.csv",
+    "baseline_comparison": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\baseline_comparison.csv",
+    "evaluation_notes": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\evaluation_notes.md",
+    "evidence_completeness": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\evidence_completeness.csv",
+    "metrics_summary": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\metrics_summary.csv",
+    "runtime_summary": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\runtime_summary.csv",
+    "scanner_disagreement": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\scanner_disagreement.csv",
+    "topk_comparison": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\topk_comparison.csv"
+  },
+  "run_id": "final-real-evidence",
+  "scanner_metadata_count": 250,
+  "status": "completed"
+}

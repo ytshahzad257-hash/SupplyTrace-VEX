@@ -1,0 +1,43 @@
+{
+  "case_id": "case_021",
+  "components": [
+    {
+      "dependency_scope": "runtime",
+      "direct_or_transitive": "direct",
+      "ecosystem": "npm",
+      "name": "express",
+      "package_manager": "npm",
+      "source_manifest": "package.json",
+      "version": "4.16.0"
+    },
+    {
+      "dependency_scope": "transitive",
+      "direct_or_transitive": "transitive",
+      "ecosystem": "npm",
+      "name": "qs",
+      "package_manager": "npm",
+      "source_manifest": "package-lock.json",
+      "version": "6.5.1"
+    }
+  ],
+  "format": "internal_fallback",
+  "generated_at": "2026-05-06T17:28:30.138746+00:00",
+  "metadata": {
+    "case_hash": "44f42f6e785ef1c50b055d9ca68f83a31d8b48bb80f2b39158459a8908d8e764",
+    "generation_command": [
+      "python",
+      "-m",
+      "supplytrace",
+      "generate-sbom"
+    ],
+    "notes": [
+      "Internal fallback SBOM derived from local manifests only.",
+      "This file is not external CycloneDX or SPDX tool output.",
+      "External SBOM formats were not generated for all requested formats; see sbom_generation_metadata.csv."
+    ]
+  },
+  "sbom_format": "internal_fallback",
+  "tool_name": "supplytrace-manifest-parser",
+  "tool_status": "generated",
+  "tool_version": "0.1.0"
+}

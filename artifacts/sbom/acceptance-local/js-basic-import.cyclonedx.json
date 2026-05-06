@@ -1,0 +1,37 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "npm:lodash@4.17.21",
+      "name": "lodash",
+      "properties": [
+        {
+          "name": "supplytrace:ecosystem",
+          "value": "npm"
+        }
+      ],
+      "purl": "pkg:npm/lodash@4.17.21",
+      "scope": "runtime",
+      "type": "library",
+      "version": "4.17.21"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "js-basic-import",
+      "type": "application",
+      "version": "0.1.0"
+    },
+    "timestamp": "2026-05-05T12:27:40.409130+00:00",
+    "tools": [
+      {
+        "name": "manifest-sbom-generator",
+        "vendor": "SupplyTrace-VEX",
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "serialNumber": "urn:uuid:js-basic-import",
+  "specVersion": "1.5",
+  "version": 1
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "urn:supplytrace-vex:final-publication-check-run-all",
+  "author": "SupplyTrace-VEX",
+  "claim_scope": "Compatibility summary only; canonical outputs are project-evidence-based VEX-style case files.",
+  "statements": [],
+  "timestamp": "2026-05-06T11:02:30.888099+00:00",
+  "version": 1
+}

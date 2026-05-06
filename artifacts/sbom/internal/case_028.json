@@ -1,0 +1,34 @@
+{
+  "case_id": "case_028",
+  "components": [
+    {
+      "dependency_scope": "development",
+      "direct_or_transitive": "direct",
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "package_manager": "pip",
+      "source_manifest": "requirements-dev.txt",
+      "version": "1.24.1"
+    }
+  ],
+  "format": "internal_fallback",
+  "generated_at": "2026-05-06T17:28:30.138746+00:00",
+  "metadata": {
+    "case_hash": "f14958f858404396bd38c648b534362d4f0d9ce8cedbf92ea1110282a56a18b1",
+    "generation_command": [
+      "python",
+      "-m",
+      "supplytrace",
+      "generate-sbom"
+    ],
+    "notes": [
+      "Internal fallback SBOM derived from local manifests only.",
+      "This file is not external CycloneDX or SPDX tool output.",
+      "External SBOM formats were not generated for all requested formats; see sbom_generation_metadata.csv."
+    ]
+  },
+  "sbom_format": "internal_fallback",
+  "tool_name": "supplytrace-manifest-parser",
+  "tool_status": "generated",
+  "tool_version": "0.1.0"
+}

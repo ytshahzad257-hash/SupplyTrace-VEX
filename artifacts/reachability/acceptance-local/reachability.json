@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "analysis_limits": [
+        "Static import analysis does not prove runtime exploitability.",
+        "Dynamic imports, reflection, generated code, and transitive calls may be missed."
+      ],
+      "case_id": "js-basic-import",
+      "case_path": "E:\\Publication\\Projects\\03\\supplytrace-vex\\testbed\\cases\\js-basic-import",
+      "dependencies": [
+        {
+          "declared": true,
+          "ecosystem": "npm",
+          "imported_by_source": true,
+          "name": "lodash",
+          "version": "4.17.21"
+        }
+      ],
+      "ground_truth": {
+        "case_id": "js-basic-import",
+        "declared_dependencies": [
+          {
+            "ecosystem": "npm",
+            "name": "lodash",
+            "scope": "runtime",
+            "version": "4.17.21"
+          }
+        ],
+        "language": "javascript",
+        "local_facts": {
+          "dependency_usage": {
+            "lodash": "imported_by_source"
+          },
+          "internet_exposed_service": false,
+          "vulnerability_labels_available": false
+        },
+        "notes": [
+          "This metadata records local construction facts only.",
+          "It does not assert vulnerability presence, exploitability, or scanner results."
+        ]
+      },
+      "javascript_imports": {
+        "E:\\Publication\\Projects\\03\\supplytrace-vex\\testbed\\cases\\js-basic-import\\src\\index.js": [
+          "lodash"
+        ]
+      },
+      "python_imports": {}
+    },
+    {
+      "analysis_limits": [
+        "Static import analysis does not prove runtime exploitability.",
+        "Dynamic imports, reflection, generated code, and transitive calls may be missed."
+      ],
+      "case_id": "python-basic-import",
+      "case_path": "E:\\Publication\\Projects\\03\\supplytrace-vex\\testbed\\cases\\python-basic-import",
+      "dependencies": [
+        {
+          "declared": true,
+          "ecosystem": "pypi",
+          "imported_by_source": true,
+          "name": "requests",
+          "version": "2.31.0"
+        }
+      ],
+      "ground_truth": {
+        "case_id": "python-basic-import",
+        "declared_dependencies": [
+          {
+            "ecosystem": "pypi",
+            "name": "requests",
+            "scope": "runtime",
+            "version": "2.31.0"
+          }
+        ],
+        "language": "python",
+        "local_facts": {
+          "dependency_usage": {
+            "requests": "imported_by_source"
+          },
+          "internet_exposed_service": false,
+          "vulnerability_labels_available": false
+        },
+        "notes": [
+          "This metadata records local construction facts only.",
+          "It does not assert vulnerability presence, exploitability, or scanner results."
+        ]
+      },
+      "javascript_imports": {},
+      "python_imports": {
+        "E:\\Publication\\Projects\\03\\supplytrace-vex\\testbed\\cases\\python-basic-import\\app\\main.py": [
+          "requests"
+        ]
+      }
+    }
+  ],
+  "claim_scope": "Reachability evidence is limited to local static import observations.",
+  "run_id": "acceptance-local"
+}

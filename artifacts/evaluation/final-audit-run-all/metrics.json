@@ -1,0 +1,70 @@
+{
+  "claim_scope": "Evaluation metrics are computed only from generated local artifacts. Missing findings, missing scanner outputs, and unlabeled rows are reported rather than inferred.",
+  "finding_count": 0,
+  "input_warnings": [],
+  "labeled_finding_count": 0,
+  "metrics": {
+    "binary": {
+      "actionable_findings_retained": 0,
+      "context_filter": {
+        "f1": 0.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "method": "context_filter",
+        "notes": "no labeled scanner-backed findings available",
+        "precision": 0.0,
+        "recall": 0.0,
+        "status": "not_available",
+        "true_negative": 0,
+        "true_positive": 0
+      },
+      "false_positive_reduction": 0.0,
+      "proposed": {
+        "f1": 0.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "method": "proposed_full_model",
+        "notes": "no labeled scanner-backed findings available",
+        "precision": 0.0,
+        "recall": 0.0,
+        "status": "not_available",
+        "true_negative": 0,
+        "true_positive": 0
+      },
+      "raw": {
+        "f1": 0.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "method": "raw_scanner",
+        "notes": "no labeled scanner-backed findings available",
+        "precision": 0.0,
+        "recall": 0.0,
+        "status": "not_available",
+        "true_negative": 0,
+        "true_positive": 0
+      }
+    },
+    "scanner_disagreement": {
+      "finding_count": 0,
+      "multi_scanner_findings": 0,
+      "overlapping_pair_count": 0,
+      "scanner_disagreement_count": 0,
+      "scanner_disagreement_rate": 0.0,
+      "scanner_overlap": 0.0,
+      "scanner_pair_count": 0
+    }
+  },
+  "outputs": {
+    "ablation_results": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\ablation_results.csv",
+    "baseline_comparison": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\baseline_comparison.csv",
+    "evaluation_notes": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\evaluation_notes.md",
+    "evidence_completeness": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\evidence_completeness.csv",
+    "metrics_summary": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\metrics_summary.csv",
+    "runtime_summary": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\runtime_summary.csv",
+    "scanner_disagreement": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\scanner_disagreement.csv",
+    "topk_comparison": "E:\\Publication\\Projects\\03\\supplytrace-vex\\artifacts\\evaluation\\topk_comparison.csv"
+  },
+  "run_id": "final-audit-run-all",
+  "scanner_metadata_count": 250,
+  "status": "completed_with_missing_or_insufficient_data"
+}

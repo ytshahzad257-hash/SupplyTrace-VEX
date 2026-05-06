@@ -1,0 +1,6 @@
+expected_actionability_label,case_count
+actionable,16
+clean,6
+fixed,7
+non_actionable,15
+unknown_until_scanned,6

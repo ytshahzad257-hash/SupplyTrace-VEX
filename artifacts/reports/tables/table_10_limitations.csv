@@ -1,0 +1,6 @@
+validity_threat,project_handling,supporting_artifact
+Static reachability limitations,"Dynamic imports, generated code, framework dispatch, and runtime configuration are marked as limitations or unknown evidence.",artifacts/reachability/reachability_matrix.csv
+Scanner availability,Missing tools are reported as unavailable instead of being replaced with synthetic scanner output.,artifacts/scanner_raw/scanner_execution_metadata.csv
+Ground truth scope,"Labels describe project-context actionability for local cases, not universal vulnerability truth.",testbed/ground_truth/ground_truth.csv
+Prioritization interpretation,Scores rank defensive actionability evidence and do not prove exploitability.,artifacts/evaluation/risk_scores.csv
+VEX interpretation,"Generated statuses are VEX-style project evidence records, not official vendor VEX attestations.",artifacts/vex/vex_summary.csv

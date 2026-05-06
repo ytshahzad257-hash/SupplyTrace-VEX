@@ -1,0 +1,9 @@
+{
+  "case_id": "case_046",
+  "claim_scope": "This file contains local research status records derived from normalized scanner findings, reachability evidence, context enrichment, and scoring artifacts. It is not an official vendor VEX claim.",
+  "document_type": "SupplyTrace-VEX project-evidence-based VEX-style status document",
+  "generated_at": "2026-05-06T17:36:36.532927+00:00",
+  "notes": "No scanner-backed finding records were available for this case.",
+  "records": [],
+  "run_id": "final-new-chat-complete"
+}
